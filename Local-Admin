@@ -5,5 +5,5 @@ color 0c
 Title Administrator
 echo Please ensure you are running this script as an administrator, it will error out if not!
 pause
-start cmd.exe /k "net user Administrator /active:yes"
-start cmd.exe /k "net user Administrator *"
+cmd.exe /k "net user Administrator /active:yes"
+cmd.exe /k "net user Administrator *"
